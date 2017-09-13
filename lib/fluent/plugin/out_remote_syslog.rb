@@ -1,3 +1,5 @@
+# frozen_string_literal: false
+
 require "fluent/mixin/config_placeholders"
 require "fluent/mixin/plaintextformatter"
 require 'fluent/mixin/rewrite_tag_name'
