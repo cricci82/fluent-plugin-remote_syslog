@@ -37,7 +37,7 @@ module Fluent
       es.each do |time, record|
         record.each_pair do |k, v|
           if v.is_a?(String)
-            v.force_encoding("utf-8")
+            v = v.dup.force_encoding("utf-8")
           end
         end
 
