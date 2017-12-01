@@ -16,7 +16,7 @@ module Fluent
     config_param :host, :string
     config_param :port, :integer, :default => 514
 
-    config_param :facility, :string, :default => "user"
+    config_param :facility, :integer, :default => 1
     config_param :severity, :string, :default => "notice"
     config_param :tag, :string, :default => "fluentd"
 
